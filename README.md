@@ -7,7 +7,7 @@
 - /lobbyplugin - Get the information of this plugin
 
 ## Config.yml
-lobby:
-  server: Your_lobby
+-lobby:
+-  server: Your_lobby
               ↑
-replace "Your_lobby" to your lobby server name on bungeecord proxy config
+-replace "Your_lobby" to your lobby server name on bungeecord proxy config

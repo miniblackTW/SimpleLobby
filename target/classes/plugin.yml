@@ -1,0 +1,13 @@
+name: LobbyPlugin
+main: me.miniblacktw.lobby.LobbyPlugin
+version: 1.0
+commands:
+  setlobby:
+    description: Set the lobby location
+    usage: /setlobby
+  lobby:
+    description: Teleport to the lobby and connect to the lobby server
+    usage: /lobby
+  lobbyplugin:
+    description: Check the version
+    usage: /lobbyplugin

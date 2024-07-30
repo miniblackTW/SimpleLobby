@@ -14,8 +14,6 @@ public class LobbyPlugin extends JavaPlugin implements Listener {
         saveDefaultConfig();
         getCommand("setlobby").setExecutor(new CommandHandler(this));
         getCommand("lobby").setExecutor(new CommandHandler(this));
-
-        // Register the event listener
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
 
         getLogger().info("LobbyPlugin enabled!");
